@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Общие стили для таблицы */
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ece9e0;
+    width: 780px;
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+
+/* Стили для блоков */
+.block:first-child{
+    background-color: #ece9e0;
+}
+
+.block{
+    width: 125px;
+    height: 100px;
+    overflow: auto;
+    /* border: 2px solid #35682d; */
+    display: flex;
+    background-color: #f5d7bf;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    padding: 4px;
+    text-align: justify;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    
+}
+/* Анимация блоков */
+.block:hover{
+    box-shadow:
+    1px 1px #f68f3d,
+    2px 2px #f68f3d,
+    3px 3px #f68f3d,
+    4px 4px #f68f3d,
+    5px 5px #f68f3d,
+    6px 6px #f68f3d,
+    7px 7px #f68f3d;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
